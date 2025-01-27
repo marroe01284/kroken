@@ -92,8 +92,11 @@ Kroken is a platform where users can view information about fishing lures that a
 ### Netlify: https://kroken.netlify.app
 
 ## Future
+- Authentication page for Admin 
 - Map out all the waters in Norway 
 - Assign lures to the right waters 
 - Style the website 
 - Change the UX/UI 
 - Expand the interface to take on additional tweaks(by fishingcards, hooks, etc...)
+- Create a profile view 
+- 
