@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3002';
+const API_BASE_URL = 'https://kroken-p6rb.onrender.com';
  document.querySelector('#form').addEventListener("submit", async (e) => {
     e.preventDefault();
      const name = document.getElementById('name').value;

@@ -8,7 +8,7 @@ Kroken is a platform where users can view information about fishing lures that a
 - [Environment Variables](#environment-variables)
 - [API Endpoints](#api-endpoints)
 - [Deployment](#deployment)
-- [Credits](#credits)
+- [Future](#future)
 
 ## Features
 - List all waters
@@ -85,3 +85,15 @@ Kroken is a platform where users can view information about fishing lures that a
 ### DELETE /lure
 **Description:** Deletes the existing Lure
 
+## Deployment 
+
+### API: https://kroken-p6rb.onrender.com
+
+### Netlify: https://kroken.netlify.app
+
+## Future
+- Map out all the waters in Norway 
+- Assign lures to the right waters 
+- Style the website 
+- Change the UX/UI 
+- Expand the interface to take on additional tweaks(by fishingcards, hooks, etc...)
