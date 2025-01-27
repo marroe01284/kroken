@@ -1,4 +1,4 @@
-# Kroken
+# Kroken 🐣
 Kroken is a platform where users can view information about fishing lures that are effective in the the respective waters. 
 ## Table of Contents
 - [Features](#features)
@@ -10,7 +10,7 @@ Kroken is a platform where users can view information about fishing lures that a
 - [Deployment](#deployment)
 - [Future](#future)
 
-## Features
+## Features 🌟
 - List all waters
 - View a single water and its associated lures
 - Create new water and lures
@@ -21,7 +21,7 @@ Kroken is a platform where users can view information about fishing lures that a
 - npm or yarn
 - MySQL database
 
-## Installation
+## Installation 📦
 1. Clone this repository
     ```bash
     git clone https://github.com/marroe01284/kroken.git
@@ -85,7 +85,7 @@ Kroken is a platform where users can view information about fishing lures that a
 ### DELETE /lure
 **Description:** Deletes the existing Lure
 
-## Deployment 
+## Deployment 🚀 
 
 ### API: https://kroken-p6rb.onrender.com
 
