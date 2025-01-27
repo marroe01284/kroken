@@ -1,5 +1,5 @@
 # Kroken (BETA)🐣
-Kroken is a platform where users can view information about fishing lures that are effective in the the respective waters. 
+Kroken is a platform where users can view information about fishing lures that are effective in the the respective waters. there is alot of improvemnts and it will be resolved over time, this is the beginning of an idea which will take flight over time! 
 ## Table of Contents
 - [Features](#features)
 - [Requirements](#requirements)
