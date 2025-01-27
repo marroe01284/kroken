@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: darkslategrey;
+    background-color: rgb(16, 45, 125);
     color: white;
 }
 
@@ -13,4 +13,10 @@ form {
     padding: 2rem;
     margin: 1rem;
     gap: 0.5rem;
+}
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
 }

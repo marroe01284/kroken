@@ -6,7 +6,7 @@
          name: name,
          species: species
      };
-     const res = await fetch ('http://localhost:3004/water',{
+     const res = await fetch ('http://localhost:3002/water',{
          method: 'POST',
                  headers: {
                      'Content-Type': 'application/json'
@@ -51,7 +51,7 @@ document.querySelector('#form-two').addEventListener("submit", async (e) => {
         water_id: waterId,
         
     };
-    const res = await fetch ('http://localhost:3004/lure',{
+    const res = await fetch ('http://localhost:3002/lure',{
         method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -62,43 +62,7 @@ document.querySelector('#form-two').addEventListener("submit", async (e) => {
     console.log(data);
 });
 
-document.addEventListener('DOMContentLoaded', async function () {
-    const blog = document.getElementById('lure');
 
-    try {
-        const res = await fetch('http://localhost:3004/lure', {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-        });
-
-        if (!res.ok) {
-            throw new Error(`Failed to fetch posts: ${res.status}`);
-        }
-
-        const data = await res.json();
-
-        data.forEach(lure => {
-            const postElement = document.createElement('div');
-            postElement.classList.add('blog-post');
-
-            postElement.innerHTML = `
-                <h2 class="blog-title">${lure.title}</h2>
-                <img src="${lure.image_path}" alt="${lure.title}" class="blog-image" />
-                <p class="blog-content">${lure.content}</p>
-                <p class="name">By ${lure.name}</p>
-                <div class="blog-bottom">
-                    <button id="comment-this">Add comment</button>
-                </div>
-            `;
-
-            blog.appendChild(postElement);
-        });
-    } catch (error) {
-        console.error('Error fetching blog posts:', error);
-    }
-});
 
 
 
