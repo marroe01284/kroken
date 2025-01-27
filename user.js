@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:3002';
+const API_BASE_URL = 'https://kroken-p6rb.onrender.com';
 async function fetchWaters() {
   try {
     const res = await fetch(`${API_BASE_URL}/water`);
